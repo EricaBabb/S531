@@ -1,0 +1,33 @@
+body {
+max-width: 60em;
+margin: 0 auto 0 auto;
+/* Applies to all body elements (all pages) */
+background-color: papayawhip;
+}
+
+/* Background img for Lenore poem page */
+.background-lenore {
+    background: url(../images/eye.png) no-repeat left;
+    /* height of source img */
+    height: 300px;
+}
+
+/* Background img for Tell Tale Heart poem page */
+.background-heart {
+    background: url(../images/heart.jpg) no-repeat left;
+    /* height of source img */
+    height: 400px;
+}
+
+.red-background {
+    /* Hex code taken from heart.jpg */
+    background-color: #7A130B;
+    color: papayawhip;
+}
+
+
+table, th, td {
+border-collapse: collapse;
+border: 1px solid #000;
+padding: 1em;
+}
