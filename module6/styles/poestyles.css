@@ -1,0 +1,97 @@
+body {
+  max-width: 60em;
+  margin: 0 auto 2em auto;
+}
+
+main {
+  width: 80%;
+  margin: 0 auto 0 auto;
+}
+
+/* NAV BAR */
+nav {
+padding-bottom: 50px;
+
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 60em;
+  list-style-type: none;
+  margin: 0 auto 10px auto;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+    background-color: #7A130B;
+  }
+
+/* END */
+
+/* IMAGES */
+/* Size applied to both pics on Home page */
+.poe {
+  width: 20%;
+  height: 20%;
+}
+
+/* First poe pic */
+#poe-portrait {
+  float: right;
+  margin: auto 2em auto 2em;
+}
+
+/* Second poe pic */
+#poe {
+  float: left;
+  margin: 0.3em 2em auto;
+}
+
+/* Applied to both poem pages' image */
+.poem-pic {
+  width: 50%;
+  height: 50%;
+  margin: 0 auto 0 auto;
+}
+/* END */
+
+/* TABLE */
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid #000;
+  padding: 1em;
+}
+
+/* RESPONSIVE SCREEN SIZE */
+@media only screen and (max-width: 600px) {
+  main {
+    width: 95%;
+    margin: 0 auto 0 auto;
+  }
+
+  table {
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+}
